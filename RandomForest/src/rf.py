@@ -6,6 +6,7 @@
 from model import *
 #载入基分类器的代码  
 import rfa
+
 #ETL:same procedure to training set and test set  
 training=pd.read_csv('train.csv',index_col=0)  
 test=pd.read_csv('test.csv',index_col=0)  
